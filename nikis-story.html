@@ -7,6 +7,12 @@
     <title>Niki's Story — A Resident's Account | Out of the Ashes</title>
     <meta name="description"
         content="A first-hand account of evacuation, displacement, and the long wait to return home after the Waterloo Road fire.">
+    <meta name="theme-color" content="#1a252c">
+    <meta property="og:title" content="Niki's Story — A Resident's Account | Out of the Ashes">
+    <meta property="og:description"
+        content="A first-hand account of evacuation, displacement, and the long wait to return home after the Waterloo Road fire.">
+    <meta property="og:type" content="article">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -50,7 +56,7 @@
             instruction before Niki stepped into the cold night: <em>"Leave your front door unlocked for emergency
                 access."</em></p>
 
-        <ul class="timeline">
+        <ul class="timeline animate-in">
             <li>
                 <span class="time">23:30</span>
                 <span class="dot"></span>
@@ -68,15 +74,22 @@
             </li>
         </ul>
 
+        <figure class="full-width-figure animate-in">
+            <img src="2026-02-06-friday-fire-glow-neighbourhood.png"
+                alt="The sky over South Shore glowing orange from the fire, with smoke billowing over the rooftops">
+            <figcaption><strong>The View from the Street.</strong> The sky over South Shore lit up by the blaze. This is
+                what residents stepped out into when they were evacuated.</figcaption>
+        </figure>
+
         <div class="image-grid">
-            <figure>
+            <figure class="animate-in">
                 <img src="2026-02-07-saturday-evacuation-pub-teacups.jpg"
                     alt="Tea and snacks provided to displaced residents at The Last Resort pub"
                     style="object-position: center 40%;">
                 <figcaption>Tea and snacks provided to displaced Gordon Street residents at The Last Resort pub in the
                     early hours.</figcaption>
             </figure>
-            <figure>
+            <figure class="animate-in">
                 <img src="2026-02-07-saturday-evacuated-resident-outside-pub.jpg"
                     alt="Niki outside the pub after evacuation" style="object-position: center 20%;">
                 <figcaption>Niki outside the emergency shelter perimeter following the evacuation.</figcaption>
@@ -97,18 +110,20 @@
             drone footage shared online.
         </p>
 
-        <figure class="full-width-figure">
+        <figure class="full-width-figure animate-in">
             <img src="drone-02-09-13-43-25-104_com.facebook.katana-edit.jpg"
                 alt="Wide aerial drone view showing the fire damage and proximity to residential streets">
             <figcaption><strong>Wide Aerial View.</strong> The scale of the fire damage to the Smart Mart building and
-                its proximity to the residential properties on Gordon Street.</figcaption>
+                its proximity to the residential properties on Gordon Street.
+                <span class="photo-credit">Photo: Ian Cank Aerial Photography &amp; Videography</span>
+            </figcaption>
         </figure>
 
         <h2>Emergency Accommodation</h2>
         <p>Having been evacuated, Niki was provided temporary accommodation by the local authority. However, the initial
             housing offered had a number of issues — including damp conditions and a disabled fire alarm panel.</p>
 
-        <figure>
+        <figure class="animate-in">
             <img src="2026-02-07-saturday-faulty-fire-alarm-temp-housing.jpg" alt="Faulty C-TEC fire alarm panel"
                 style="max-height: 480px; object-fit: cover; object-position: center;">
             <figcaption><strong>Emergency Accommodation.</strong> A disabled fire alarm panel observed inside the
@@ -134,12 +149,12 @@
             this development — the collapse was only discovered through photos shared online by other residents.</p>
 
         <div class="image-grid tall">
-            <figure>
+            <figure class="animate-in">
                 <img src="2026-02-11-wednesday-rear-yard-collapsed-brick-wall.jpg" alt="Collapsed red bricks in yard">
                 <figcaption><strong>Structural Damage.</strong> Collapsed rear masonry in the resident's rear yard.
                 </figcaption>
             </figure>
-            <figure>
+            <figure class="animate-in">
                 <img src="2026-02-12-window-view-damaged-rear-wall.jpg"
                     alt="View of the damaged rear wall from the window">
                 <figcaption><strong>Rear Wall Damage.</strong> View from the property showing the damaged rear wall of
@@ -147,7 +162,7 @@
             </figure>
         </div>
 
-        <figure>
+        <figure class="animate-in">
             <img src="2026-02-09-monday-escorted-access-dirty-window.jpg"
                 alt="Smoke stained dirty window looking at the yard"
                 style="max-height: 480px; object-fit: cover; object-position: center 60%;">
@@ -204,7 +219,7 @@
             threats, and finally, the trauma of a burglary. The physical fire was extinguished in four days, but the
             damage it set in motion continues to destroy livelihoods and homes weeks later.</p>
 
-        <blockquote>
+        <blockquote class="animate-in">
             "I can't give an assessment of either damage or losses at this time, I have been careful to not disturb
             much...
             I have taken small steps to limit further damage without disrupting either forensics or assessment."
@@ -228,6 +243,8 @@
         </div>
     </div>
 
+    <script src="animations.js" defer></script>
+    <script src="lightbox.js" defer></script>
 </body>
 
 </html>
