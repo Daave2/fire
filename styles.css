@@ -84,6 +84,10 @@ body.page-loaded {
     transition-delay: 0.32s;
 }
 
+.page-cards .animate-in:nth-child(6) {
+    transition-delay: 0.4s;
+}
+
 .image-grid .animate-in:nth-child(2) {
     transition-delay: 0.1s;
 }
@@ -289,6 +293,64 @@ p {
     font-weight: 600;
     color: var(--accent);
     font-variant-numeric: tabular-nums;
+}
+
+/* --- Status and Evidence Blocks --- */
+.status-note {
+    margin: 40px 0;
+    padding: 28px 32px;
+    border-left: 4px solid var(--accent);
+    background: linear-gradient(135deg, var(--accent-soft), rgba(var(--primary-rgb), 0.03));
+    border-radius: 0 10px 10px 0;
+}
+
+.status-note h2 {
+    margin-top: 0;
+}
+
+.status-note ul {
+    margin-bottom: 0;
+    padding-left: 22px;
+    font-size: 1.02em;
+    line-height: 1.9;
+}
+
+.evidence-list {
+    border-top: 1px solid var(--border);
+    margin: 24px 0 40px;
+}
+
+.evidence-list p {
+    margin: 0;
+    padding: 22px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.evidence-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0 40px;
+    font-size: 0.96em;
+    line-height: 1.55;
+}
+
+.evidence-table th,
+.evidence-table td {
+    padding: 16px 14px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+    text-align: left;
+}
+
+.evidence-table th {
+    color: var(--primary);
+    font-weight: 700;
+    background: rgba(var(--primary-rgb), 0.04);
+}
+
+.evidence-table td:first-child {
+    font-weight: 600;
+    color: var(--primary);
 }
 
 /* --- Images --- */
@@ -668,7 +730,7 @@ blockquote cite {
     margin-left: auto;
 }
 
-/* --- Page Cards: 5-card grid fix --- */
+/* --- Page Cards: odd-card grid fix --- */
 .page-cards .page-card:last-child:nth-child(odd) {
     grid-column: 1 / -1;
 }
@@ -752,6 +814,31 @@ html {
 }
 
 /* --- Responsive --- */
+@media (max-width: 900px) {
+    .site-nav .nav-links {
+        display: none;
+        position: absolute;
+        top: var(--nav-height);
+        left: 0;
+        right: 0;
+        background: rgba(var(--primary-rgb), 0.95);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        flex-direction: column;
+        padding: 12px 24px 20px;
+        gap: 2px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    }
+
+    .site-nav .nav-links.open {
+        display: flex;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 28px 24px;
@@ -852,6 +939,33 @@ html {
     blockquote {
         padding: 20px 24px;
         font-size: 1.05em;
+    }
+
+    .status-note {
+        padding: 22px 20px;
+    }
+
+    .evidence-table,
+    .evidence-table thead,
+    .evidence-table tbody,
+    .evidence-table th,
+    .evidence-table td,
+    .evidence-table tr {
+        display: block;
+    }
+
+    .evidence-table thead {
+        display: none;
+    }
+
+    .evidence-table tr {
+        border-bottom: 1px solid var(--border);
+        padding: 14px 0;
+    }
+
+    .evidence-table td {
+        border-bottom: none;
+        padding: 8px 0;
     }
 
     .lightbox-overlay {
