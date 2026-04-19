@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://daave2.github.io/fire/sitemap.xml

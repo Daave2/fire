@@ -12,18 +12,33 @@
     <meta property="og:description"
         content="How displaced residents were left without communication, security, or support after the Waterloo Road fire — and how those failures continued into recovery.">
     <meta property="og:type" content="article">
+    <link rel="canonical" href="https://daave2.github.io/fire/left-in-the-dark.html">
+    <meta property="og:url" content="https://daave2.github.io/fire/left-in-the-dark.html">
+    <meta property="og:site_name" content="Out of the Ashes">
+    <meta property="og:image" content="https://daave2.github.io/fire/2026-02-11-wednesday-cordoned-alleyway-night.jpg">
+    <meta property="og:image:alt" content="Waterloo Road fire evidence site image">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Left in the Dark — An Editorial | Out of the Ashes">
+    <meta name="twitter:description" content="How displaced residents were left without communication, security, or support after the Waterloo Road fire — and how those failures continued into recovery.">
+    <meta name="twitter:image" content="https://daave2.github.io/fire/2026-02-11-wednesday-cordoned-alleyway-night.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,700;1,400;1,700&amp;display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,700;1,400;1,700&amp;display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,700;1,400;1,700&amp;display=swap"></noscript>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
 
     <nav class="site-nav">
         <div class="nav-inner">
             <a href="index.html" class="nav-brand">Out of the <span>Ashes</span></a>
-            <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')"
-                aria-label="Toggle navigation">☰</button>
-            <ul class="nav-links">
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation"
+                aria-controls="primary-nav" aria-expanded="false">☰</button>
+            <ul class="nav-links" id="primary-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="the-fire.html">The Fire</a></li>
                 <li><a href="nikis-story.html">Niki's Story</a></li>
@@ -35,7 +50,7 @@
         </div>
     </nav>
 
-    <div class="container">
+    <main id="main" class="container">
         <header>
             <h1>Left in the Dark</h1>
             <div class="subtitle">How Residents Were Handled After the Fire</div>
@@ -85,15 +100,30 @@
 
         <div class="image-grid tall">
             <figure class="animate-in">
-                <img src="2026-02-12-day-police-officers-at-street-cordon.jpeg"
-                    alt="Police officers standing at the street cordon near the fire site"
-                    style="object-position: center 30%;">
+                <img src="assets/img/2026-02-12-day-police-officers-at-street-cordon-1200.webp"
+            srcset="assets/img/2026-02-12-day-police-officers-at-street-cordon-480.webp 480w, assets/img/2026-02-12-day-police-officers-at-street-cordon-640.webp 640w, assets/img/2026-02-12-day-police-officers-at-street-cordon-800.webp 800w, assets/img/2026-02-12-day-police-officers-at-street-cordon-1200.webp 1200w, assets/img/2026-02-12-day-police-officers-at-street-cordon-1600.webp 1600w"
+            sizes="(max-width: 768px) calc(100vw - 48px), 384px"
+            width="2160"
+            height="3840"
+            alt="Police officers standing at the street cordon near the fire site"
+            loading="lazy"
+            decoding="async"
+            data-fullsrc="2026-02-12-day-police-officers-at-street-cordon.jpeg"
+            style="object-position: center 30%;">
                 <figcaption><strong>Police Cordon.</strong> Officers managing access at the residential street cordon
                     during the restricted access period.</figcaption>
             </figure>
             <figure class="animate-in">
-                <img src="2026-02-12-day-rear-alleyway-police-tape-cones.jpg"
-                    alt="Police tape and cones in rear alleyway" style="object-position: center 40%;">
+                <img src="assets/img/2026-02-12-day-rear-alleyway-police-tape-cones-1200.webp"
+            srcset="assets/img/2026-02-12-day-rear-alleyway-police-tape-cones-480.webp 480w, assets/img/2026-02-12-day-rear-alleyway-police-tape-cones-640.webp 640w, assets/img/2026-02-12-day-rear-alleyway-police-tape-cones-800.webp 800w, assets/img/2026-02-12-day-rear-alleyway-police-tape-cones-1200.webp 1200w, assets/img/2026-02-12-day-rear-alleyway-police-tape-cones-1600.webp 1600w"
+            sizes="(max-width: 768px) calc(100vw - 48px), 384px"
+            width="3072"
+            height="4096"
+            alt="Police tape and cones in rear alleyway"
+            loading="lazy"
+            decoding="async"
+            data-fullsrc="2026-02-12-day-rear-alleyway-police-tape-cones.jpg"
+            style="object-position: center 40%;">
                 <figcaption>Alleyway cordons consisting of police tape and traffic cones.</figcaption>
             </figure>
         </div>
@@ -164,8 +194,16 @@
             first place, particularly when residents' homes had been deliberately left unlocked?</p>
 
         <figure class="animate-in">
-            <img src="2026-02-11-wednesday-cordoned-alleyway-night.jpg" alt="Dark, wet alleyway with tape"
-                style="max-height: 480px; object-fit: cover; object-position: center 70%;">
+            <img src="assets/img/2026-02-11-wednesday-cordoned-alleyway-night-1200.webp"
+            srcset="assets/img/2026-02-11-wednesday-cordoned-alleyway-night-480.webp 480w, assets/img/2026-02-11-wednesday-cordoned-alleyway-night-640.webp 640w, assets/img/2026-02-11-wednesday-cordoned-alleyway-night-800.webp 800w, assets/img/2026-02-11-wednesday-cordoned-alleyway-night-1200.webp 1200w, assets/img/2026-02-11-wednesday-cordoned-alleyway-night-1600.webp 1600w"
+            sizes="(max-width: 768px) calc(100vw - 48px), 792px"
+            width="3072"
+            height="4096"
+            alt="Dark, wet alleyway with tape"
+            loading="lazy"
+            decoding="async"
+            data-fullsrc="2026-02-11-wednesday-cordoned-alleyway-night.jpg"
+            style="max-height: 480px; object-fit: cover; object-position: center 70%;">
             <figcaption><strong>Rear Alleyway.</strong> The rear alleyways behind Gordon Street at night during the
                 cordon period.</figcaption>
         </figure>
@@ -452,14 +490,21 @@
         </blockquote>
 
         <figure class="animate-in">
-            <img src="2026-02-xx-day-street-cordon-heras-fencing.jpg"
-                alt="Heras fencing blocking access to Gordon Street"
-                style="max-height: 420px; object-fit: cover; object-position: center;">
+            <img src="assets/img/2026-02-xx-day-street-cordon-heras-fencing-1200.webp"
+            srcset="assets/img/2026-02-xx-day-street-cordon-heras-fencing-480.webp 480w, assets/img/2026-02-xx-day-street-cordon-heras-fencing-640.webp 640w, assets/img/2026-02-xx-day-street-cordon-heras-fencing-800.webp 800w, assets/img/2026-02-xx-day-street-cordon-heras-fencing-1200.webp 1200w, assets/img/2026-02-xx-day-street-cordon-heras-fencing-1600.webp 1600w"
+            sizes="(max-width: 768px) calc(100vw - 48px), 792px"
+            width="3072"
+            height="4096"
+            alt="Heras fencing blocking access to Gordon Street"
+            loading="lazy"
+            decoding="async"
+            data-fullsrc="2026-02-xx-day-street-cordon-heras-fencing.jpg"
+            style="max-height: 420px; object-fit: cover; object-position: center;">
             <figcaption><strong>Restricted Access.</strong> Heras fencing across the approach to Gordon Street.
                 Residents could see their homes but could not enter.</figcaption>
         </figure>
 
-    </div>
+    </main>
 
     <div class="container">
         <div class="continue-reading">

@@ -1,0 +1,602 @@
+{
+  "2026-02-06-friday-fire-engines-waterloo-road.jpg": {
+    "width": 1648,
+    "height": 1220,
+    "variants": [
+      {
+        "width": 480,
+        "height": 355,
+        "src": "assets/img/2026-02-06-friday-fire-engines-waterloo-road-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 474,
+        "src": "assets/img/2026-02-06-friday-fire-engines-waterloo-road-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 592,
+        "src": "assets/img/2026-02-06-friday-fire-engines-waterloo-road-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 888,
+        "src": "assets/img/2026-02-06-friday-fire-engines-waterloo-road-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 1184,
+        "src": "assets/img/2026-02-06-friday-fire-engines-waterloo-road-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-02-06-friday-fire-engines-waterloo-road-1200.webp"
+  },
+  "2026-02-06-friday-fire-glow-neighbourhood.png": {
+    "width": 740,
+    "height": 996,
+    "variants": [
+      {
+        "width": 480,
+        "height": 646,
+        "src": "assets/img/2026-02-06-friday-fire-glow-neighbourhood-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 861,
+        "src": "assets/img/2026-02-06-friday-fire-glow-neighbourhood-640.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-02-06-friday-fire-glow-neighbourhood-640.webp"
+  },
+  "2026-02-07-saturday-evacuated-resident-outside-pub.jpg": {
+    "width": 4928,
+    "height": 6560,
+    "variants": [
+      {
+        "width": 480,
+        "height": 639,
+        "src": "assets/img/2026-02-07-saturday-evacuated-resident-outside-pub-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 852,
+        "src": "assets/img/2026-02-07-saturday-evacuated-resident-outside-pub-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1065,
+        "src": "assets/img/2026-02-07-saturday-evacuated-resident-outside-pub-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1597,
+        "src": "assets/img/2026-02-07-saturday-evacuated-resident-outside-pub-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 2130,
+        "src": "assets/img/2026-02-07-saturday-evacuated-resident-outside-pub-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-02-07-saturday-evacuated-resident-outside-pub-1200.webp"
+  },
+  "2026-02-07-saturday-evacuation-pub-interior.jpg": {
+    "width": 3072,
+    "height": 4096,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "src": "assets/img/2026-02-07-saturday-evacuation-pub-interior-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "assets/img/2026-02-07-saturday-evacuation-pub-interior-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "src": "assets/img/2026-02-07-saturday-evacuation-pub-interior-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "src": "assets/img/2026-02-07-saturday-evacuation-pub-interior-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "assets/img/2026-02-07-saturday-evacuation-pub-interior-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-02-07-saturday-evacuation-pub-interior-1200.webp"
+  },
+  "2026-02-07-saturday-evacuation-pub-teacups.jpg": {
+    "width": 3072,
+    "height": 4096,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "src": "assets/img/2026-02-07-saturday-evacuation-pub-teacups-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "assets/img/2026-02-07-saturday-evacuation-pub-teacups-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "src": "assets/img/2026-02-07-saturday-evacuation-pub-teacups-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "src": "assets/img/2026-02-07-saturday-evacuation-pub-teacups-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "assets/img/2026-02-07-saturday-evacuation-pub-teacups-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-02-07-saturday-evacuation-pub-teacups-1200.webp"
+  },
+  "2026-02-07-saturday-faulty-fire-alarm-temp-housing.jpg": {
+    "width": 3072,
+    "height": 4096,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "src": "assets/img/2026-02-07-saturday-faulty-fire-alarm-temp-housing-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "assets/img/2026-02-07-saturday-faulty-fire-alarm-temp-housing-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "src": "assets/img/2026-02-07-saturday-faulty-fire-alarm-temp-housing-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "src": "assets/img/2026-02-07-saturday-faulty-fire-alarm-temp-housing-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "assets/img/2026-02-07-saturday-faulty-fire-alarm-temp-housing-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-02-07-saturday-faulty-fire-alarm-temp-housing-1200.webp"
+  },
+  "2026-02-08-sunday-drone-wide-ian-cank.png": {
+    "width": 1034,
+    "height": 522,
+    "variants": [
+      {
+        "width": 480,
+        "height": 242,
+        "src": "assets/img/2026-02-08-sunday-drone-wide-ian-cank-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 323,
+        "src": "assets/img/2026-02-08-sunday-drone-wide-ian-cank-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 404,
+        "src": "assets/img/2026-02-08-sunday-drone-wide-ian-cank-800.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-02-08-sunday-drone-wide-ian-cank-800.webp"
+  },
+  "2026-02-09-monday-escorted-access-dirty-window.jpg": {
+    "width": 3072,
+    "height": 4096,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "src": "assets/img/2026-02-09-monday-escorted-access-dirty-window-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "assets/img/2026-02-09-monday-escorted-access-dirty-window-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "src": "assets/img/2026-02-09-monday-escorted-access-dirty-window-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "src": "assets/img/2026-02-09-monday-escorted-access-dirty-window-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "assets/img/2026-02-09-monday-escorted-access-dirty-window-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-02-09-monday-escorted-access-dirty-window-1200.webp"
+  },
+  "2026-02-11-wednesday-cordoned-alleyway-night.jpg": {
+    "width": 3072,
+    "height": 4096,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "src": "assets/img/2026-02-11-wednesday-cordoned-alleyway-night-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "assets/img/2026-02-11-wednesday-cordoned-alleyway-night-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "src": "assets/img/2026-02-11-wednesday-cordoned-alleyway-night-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "src": "assets/img/2026-02-11-wednesday-cordoned-alleyway-night-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "assets/img/2026-02-11-wednesday-cordoned-alleyway-night-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-02-11-wednesday-cordoned-alleyway-night-1200.webp"
+  },
+  "2026-02-11-wednesday-rear-yard-collapsed-brick-wall.jpg": {
+    "width": 1536,
+    "height": 2048,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "src": "assets/img/2026-02-11-wednesday-rear-yard-collapsed-brick-wall-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "assets/img/2026-02-11-wednesday-rear-yard-collapsed-brick-wall-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "src": "assets/img/2026-02-11-wednesday-rear-yard-collapsed-brick-wall-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "src": "assets/img/2026-02-11-wednesday-rear-yard-collapsed-brick-wall-1200.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-02-11-wednesday-rear-yard-collapsed-brick-wall-1200.webp"
+  },
+  "2026-02-12-day-police-officers-at-street-cordon.jpeg": {
+    "width": 2160,
+    "height": 3840,
+    "variants": [
+      {
+        "width": 480,
+        "height": 853,
+        "src": "assets/img/2026-02-12-day-police-officers-at-street-cordon-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 1138,
+        "src": "assets/img/2026-02-12-day-police-officers-at-street-cordon-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1422,
+        "src": "assets/img/2026-02-12-day-police-officers-at-street-cordon-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 2133,
+        "src": "assets/img/2026-02-12-day-police-officers-at-street-cordon-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 2844,
+        "src": "assets/img/2026-02-12-day-police-officers-at-street-cordon-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-02-12-day-police-officers-at-street-cordon-1200.webp"
+  },
+  "2026-02-12-day-rear-alleyway-police-tape-cones.jpg": {
+    "width": 3072,
+    "height": 4096,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "src": "assets/img/2026-02-12-day-rear-alleyway-police-tape-cones-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "assets/img/2026-02-12-day-rear-alleyway-police-tape-cones-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "src": "assets/img/2026-02-12-day-rear-alleyway-police-tape-cones-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "src": "assets/img/2026-02-12-day-rear-alleyway-police-tape-cones-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "assets/img/2026-02-12-day-rear-alleyway-police-tape-cones-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-02-12-day-rear-alleyway-police-tape-cones-1200.webp"
+  },
+  "2026-02-12-window-view-damaged-rear-wall.jpg": {
+    "width": 3072,
+    "height": 4096,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "src": "assets/img/2026-02-12-window-view-damaged-rear-wall-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "assets/img/2026-02-12-window-view-damaged-rear-wall-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "src": "assets/img/2026-02-12-window-view-damaged-rear-wall-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "src": "assets/img/2026-02-12-window-view-damaged-rear-wall-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "assets/img/2026-02-12-window-view-damaged-rear-wall-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-02-12-window-view-damaged-rear-wall-1200.webp"
+  },
+  "2026-02-18-day-brick-rubble-pile-colourful-bench.jpg": {
+    "width": 3060,
+    "height": 4080,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "src": "assets/img/2026-02-18-day-brick-rubble-pile-colourful-bench-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "assets/img/2026-02-18-day-brick-rubble-pile-colourful-bench-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "src": "assets/img/2026-02-18-day-brick-rubble-pile-colourful-bench-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "src": "assets/img/2026-02-18-day-brick-rubble-pile-colourful-bench-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "assets/img/2026-02-18-day-brick-rubble-pile-colourful-bench-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-02-18-day-brick-rubble-pile-colourful-bench-1200.webp"
+  },
+  "2026-02-23-day-charred-debris-pile-against-residential-houses.jpg": {
+    "width": 3060,
+    "height": 4080,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "src": "assets/img/2026-02-23-day-charred-debris-pile-against-residential-houses-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "assets/img/2026-02-23-day-charred-debris-pile-against-residential-houses-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "src": "assets/img/2026-02-23-day-charred-debris-pile-against-residential-houses-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "src": "assets/img/2026-02-23-day-charred-debris-pile-against-residential-houses-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "assets/img/2026-02-23-day-charred-debris-pile-against-residential-houses-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-02-23-day-charred-debris-pile-against-residential-houses-1200.webp"
+  },
+  "2026-02-23-day-street-view-cleared-demolition-site.jpg.jpg": {
+    "width": 4096,
+    "height": 3072,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "src": "assets/img/2026-02-23-day-street-view-cleared-demolition-site-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "assets/img/2026-02-23-day-street-view-cleared-demolition-site-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "src": "assets/img/2026-02-23-day-street-view-cleared-demolition-site-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "src": "assets/img/2026-02-23-day-street-view-cleared-demolition-site-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "assets/img/2026-02-23-day-street-view-cleared-demolition-site-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-02-23-day-street-view-cleared-demolition-site-1200.webp"
+  },
+  "2026-02-xx-day-street-cordon-heras-fencing.jpg": {
+    "width": 3072,
+    "height": 4096,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "src": "assets/img/2026-02-xx-day-street-cordon-heras-fencing-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "assets/img/2026-02-xx-day-street-cordon-heras-fencing-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "src": "assets/img/2026-02-xx-day-street-cordon-heras-fencing-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "src": "assets/img/2026-02-xx-day-street-cordon-heras-fencing-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "assets/img/2026-02-xx-day-street-cordon-heras-fencing-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-02-xx-day-street-cordon-heras-fencing-1200.webp"
+  },
+  "IMG_20260211_172509.jpg": {
+    "width": 3060,
+    "height": 4080,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "src": "assets/img/img-20260211-172509-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "assets/img/img-20260211-172509-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "src": "assets/img/img-20260211-172509-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "src": "assets/img/img-20260211-172509-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "assets/img/img-20260211-172509-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/img-20260211-172509-1200.webp"
+  },
+  "Screenshot_2026-02-12-19-02-02-217_com.miui.gallery-edit.jpg": {
+    "width": 1220,
+    "height": 703,
+    "variants": [
+      {
+        "width": 480,
+        "height": 277,
+        "src": "assets/img/screenshot-2026-02-12-19-02-02-217-com-miui-gallery-edit-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 369,
+        "src": "assets/img/screenshot-2026-02-12-19-02-02-217-com-miui-gallery-edit-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 461,
+        "src": "assets/img/screenshot-2026-02-12-19-02-02-217-com-miui-gallery-edit-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 691,
+        "src": "assets/img/screenshot-2026-02-12-19-02-02-217-com-miui-gallery-edit-1200.webp"
+      }
+    ],
+    "fallback": "assets/img/screenshot-2026-02-12-19-02-02-217-com-miui-gallery-edit-1200.webp"
+  },
+  "drone-02-09-13-43-25-104_com.facebook.katana-edit.jpg": {
+    "width": 1220,
+    "height": 2140,
+    "variants": [
+      {
+        "width": 480,
+        "height": 842,
+        "src": "assets/img/drone-02-09-13-43-25-104-com-facebook-katana-edit-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 1123,
+        "src": "assets/img/drone-02-09-13-43-25-104-com-facebook-katana-edit-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1403,
+        "src": "assets/img/drone-02-09-13-43-25-104-com-facebook-katana-edit-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 2105,
+        "src": "assets/img/drone-02-09-13-43-25-104-com-facebook-katana-edit-1200.webp"
+      }
+    ],
+    "fallback": "assets/img/drone-02-09-13-43-25-104-com-facebook-katana-edit-1200.webp"
+  }
+}

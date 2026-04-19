@@ -3,18 +3,16 @@
    Professional Edition
    =========================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400;1,700&display=swap');
-
 :root {
     --primary: #1a252c;
     --primary-rgb: 26, 37, 44;
     --accent: #c0392b;
-    --accent-light: #e74c3c;
+    --accent-light: #ff6b5e;
     --accent-soft: rgba(192, 57, 43, 0.07);
     --accent-glow: rgba(192, 57, 43, 0.15);
     --bg: #f2f3f6;
     --text: #2c3e50;
-    --light-text: #6b7b8d;
+    --light-text: #536273;
     --card-bg: #ffffff;
     --border: #e8ecf1;
     --nav-height: 64px;
@@ -36,7 +34,47 @@
     box-sizing: border-box;
 }
 
-/* --- Page Load Animation --- */
+html {
+    color-scheme: light;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+a,
+button {
+    touch-action: manipulation;
+}
+
+a:focus-visible,
+button:focus-visible,
+figure img[role="button"]:focus-visible {
+    outline: 3px solid var(--accent-light);
+    outline-offset: 4px;
+}
+
+.skip-link {
+    position: fixed;
+    top: 12px;
+    left: 16px;
+    z-index: 10001;
+    padding: 10px 14px;
+    background: #fff;
+    color: var(--primary);
+    border-radius: 8px;
+    box-shadow: var(--shadow-md);
+    transform: translateY(-160%);
+    transition: transform var(--transition-fast);
+}
+
+.skip-link:focus-visible {
+    transform: translateY(0);
+}
+
+/* --- Page Base --- */
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     line-height: 1.8;
@@ -47,12 +85,6 @@ body {
     padding-top: var(--nav-height);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-body.page-loaded {
-    opacity: 1;
 }
 
 /* --- Scroll Animations --- */
@@ -124,9 +156,12 @@ body.page-loaded {
         transition: none;
     }
 
-    body {
-        opacity: 1;
-        transition: none;
+    html {
+        scroll-behavior: auto;
+    }
+
+    .timeline.visible .dot {
+        animation: none;
     }
 }
 
@@ -185,13 +220,13 @@ body.page-loaded {
 }
 
 .site-nav .nav-links a {
-    color: rgba(255, 255, 255, 0.65);
+    color: rgba(255, 255, 255, 0.76);
     text-decoration: none;
     font-size: 0.88em;
     font-weight: 500;
     padding: 8px 14px;
     border-radius: 8px;
-    transition: all var(--transition-fast);
+    transition: color var(--transition-fast), background var(--transition-fast);
     position: relative;
 }
 
@@ -231,6 +266,10 @@ body.page-loaded {
     transform: scale(1.1);
 }
 
+.nav-toggle[aria-expanded="true"] {
+    color: var(--accent-light);
+}
+
 /* --- Container --- */
 .container {
     max-width: 920px;
@@ -256,6 +295,7 @@ h1 {
     margin: 0 0 12px 0;
     line-height: 1.1;
     letter-spacing: -0.02em;
+    text-wrap: balance;
 }
 
 .subtitle {
@@ -275,6 +315,7 @@ h2 {
     margin-top: 56px;
     margin-bottom: 24px;
     letter-spacing: -0.01em;
+    text-wrap: balance;
 }
 
 h2:first-of-type {
@@ -361,6 +402,7 @@ figure {
 
 figure img {
     width: 100%;
+    height: auto;
     border-radius: 10px;
     box-shadow: var(--shadow-sm);
     transition: transform var(--transition-default), box-shadow var(--transition-default);
@@ -369,6 +411,10 @@ figure img {
 figure img:hover {
     transform: scale(1.008);
     box-shadow: var(--shadow-md);
+}
+
+figure img[role="button"] {
+    cursor: zoom-in;
 }
 
 figcaption {
@@ -633,6 +679,7 @@ blockquote cite {
     margin: 0 0 8px 0;
     letter-spacing: -0.01em;
     transition: color var(--transition-fast);
+    text-wrap: balance;
 }
 
 .page-card:hover .card-title {
@@ -687,6 +734,17 @@ blockquote cite {
 
 .site-footer a:hover {
     text-decoration: underline;
+}
+
+.footer-container {
+    margin-top: -24px;
+    padding-top: 0;
+    box-shadow: none;
+    background: transparent;
+}
+
+.footer-container .site-footer {
+    margin-top: 0;
 }
 
 /* --- Continue Reading --- */
@@ -753,6 +811,7 @@ blockquote cite {
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
     cursor: zoom-out;
+    overscroll-behavior: contain;
 }
 
 .lightbox-overlay.active {
@@ -806,11 +865,6 @@ blockquote cite {
 ::selection {
     background: var(--accent-glow);
     color: var(--primary);
-}
-
-/* --- Smooth Scrolling --- */
-html {
-    scroll-behavior: smooth;
 }
 
 /* --- Responsive --- */

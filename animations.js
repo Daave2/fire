@@ -13,6 +13,8 @@
     // Page load fade-in
     document.body.classList.add('page-loaded');
 
+    initNavigation();
+
     if (prefersReducedMotion) {
         // Make everything visible immediately
         document.querySelectorAll('.animate-in').forEach(el => el.classList.add('visible'));
@@ -70,5 +72,40 @@
         }
 
         requestAnimationFrame(step);
+    }
+
+    function initNavigation() {
+        const toggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        if (!toggle || !navLinks) return;
+
+        function setOpen(isOpen) {
+            navLinks.classList.toggle('open', isOpen);
+            toggle.setAttribute('aria-expanded', String(isOpen));
+        }
+
+        toggle.addEventListener('click', () => {
+            setOpen(!navLinks.classList.contains('open'));
+        });
+
+        navLinks.addEventListener('click', (event) => {
+            if (event.target.closest('a')) {
+                setOpen(false);
+            }
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && navLinks.classList.contains('open')) {
+                setOpen(false);
+                toggle.focus();
+            }
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!navLinks.classList.contains('open')) return;
+            if (event.target.closest('.site-nav')) return;
+            setOpen(false);
+        });
     }
 })();
