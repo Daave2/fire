@@ -598,5 +598,310 @@
       }
     ],
     "fallback": "assets/img/drone-02-09-13-43-25-104-com-facebook-katana-edit-1200.webp"
+  },
+  "2026-03-18-rear-yard-temporary-hoarding-hose.jpg": {
+    "width": 1500,
+    "height": 2000,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "src": "assets/img/2026-03-18-rear-yard-temporary-hoarding-hose-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "assets/img/2026-03-18-rear-yard-temporary-hoarding-hose-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "src": "assets/img/2026-03-18-rear-yard-temporary-hoarding-hose-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "src": "assets/img/2026-03-18-rear-yard-temporary-hoarding-hose-1200.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-03-18-rear-yard-temporary-hoarding-hose-1200.webp"
+  },
+  "2026-03-23-rear-yard-hoarding-partial-wall.jpg": {
+    "width": 2000,
+    "height": 1500,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "src": "assets/img/2026-03-23-rear-yard-hoarding-partial-wall-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "assets/img/2026-03-23-rear-yard-hoarding-partial-wall-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "src": "assets/img/2026-03-23-rear-yard-hoarding-partial-wall-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "src": "assets/img/2026-03-23-rear-yard-hoarding-partial-wall-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "assets/img/2026-03-23-rear-yard-hoarding-partial-wall-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-03-23-rear-yard-hoarding-partial-wall-1200.webp"
+  },
+  "2026-04-17-alley-flytipping-debris.jpg": {
+    "width": 2000,
+    "height": 1500,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "src": "assets/img/2026-04-17-alley-flytipping-debris-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "assets/img/2026-04-17-alley-flytipping-debris-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "src": "assets/img/2026-04-17-alley-flytipping-debris-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "src": "assets/img/2026-04-17-alley-flytipping-debris-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "assets/img/2026-04-17-alley-flytipping-debris-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-04-17-alley-flytipping-debris-1200.webp"
+  },
+  "2026-04-17-cleared-site-roof-view.jpg": {
+    "width": 2000,
+    "height": 1500,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "src": "assets/img/2026-04-17-cleared-site-roof-view-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "assets/img/2026-04-17-cleared-site-roof-view-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "src": "assets/img/2026-04-17-cleared-site-roof-view-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "src": "assets/img/2026-04-17-cleared-site-roof-view-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "assets/img/2026-04-17-cleared-site-roof-view-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-04-17-cleared-site-roof-view-1200.webp"
+  },
+  "2026-04-17-cleared-site-through-fencing.jpg": {
+    "width": 1500,
+    "height": 2000,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "src": "assets/img/2026-04-17-cleared-site-through-fencing-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "assets/img/2026-04-17-cleared-site-through-fencing-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "src": "assets/img/2026-04-17-cleared-site-through-fencing-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "src": "assets/img/2026-04-17-cleared-site-through-fencing-1200.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-04-17-cleared-site-through-fencing-1200.webp"
+  },
+  "2026-04-17-damaged-barrier-hoarding.jpg": {
+    "width": 1500,
+    "height": 2000,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "src": "assets/img/2026-04-17-damaged-barrier-hoarding-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "assets/img/2026-04-17-damaged-barrier-hoarding-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 1067,
+        "src": "assets/img/2026-04-17-damaged-barrier-hoarding-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "src": "assets/img/2026-04-17-damaged-barrier-hoarding-1200.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-04-17-damaged-barrier-hoarding-1200.webp"
+  },
+  "2026-04-17-gordon-street-hoarding-access.jpg": {
+    "width": 2000,
+    "height": 1818,
+    "variants": [
+      {
+        "width": 480,
+        "height": 436,
+        "src": "assets/img/2026-04-17-gordon-street-hoarding-access-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 582,
+        "src": "assets/img/2026-04-17-gordon-street-hoarding-access-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 727,
+        "src": "assets/img/2026-04-17-gordon-street-hoarding-access-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1091,
+        "src": "assets/img/2026-04-17-gordon-street-hoarding-access-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 1454,
+        "src": "assets/img/2026-04-17-gordon-street-hoarding-access-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-04-17-gordon-street-hoarding-access-1200.webp"
+  },
+  "2026-04-17-interior-drying-equipment-roof-leak.jpg": {
+    "width": 2000,
+    "height": 1500,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "src": "assets/img/2026-04-17-interior-drying-equipment-roof-leak-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "assets/img/2026-04-17-interior-drying-equipment-roof-leak-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "src": "assets/img/2026-04-17-interior-drying-equipment-roof-leak-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "src": "assets/img/2026-04-17-interior-drying-equipment-roof-leak-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "assets/img/2026-04-17-interior-drying-equipment-roof-leak-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-04-17-interior-drying-equipment-roof-leak-1200.webp"
+  },
+  "2026-04-17-waterloo-road-adjacent-businesses.jpg": {
+    "width": 2000,
+    "height": 1500,
+    "variants": [
+      {
+        "width": 480,
+        "height": 360,
+        "src": "assets/img/2026-04-17-waterloo-road-adjacent-businesses-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "assets/img/2026-04-17-waterloo-road-adjacent-businesses-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 600,
+        "src": "assets/img/2026-04-17-waterloo-road-adjacent-businesses-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 900,
+        "src": "assets/img/2026-04-17-waterloo-road-adjacent-businesses-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "assets/img/2026-04-17-waterloo-road-adjacent-businesses-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-04-17-waterloo-road-adjacent-businesses-1200.webp"
+  },
+  "2026-04-17-waterloo-road-cleared-site-frontage.jpg": {
+    "width": 2000,
+    "height": 1667,
+    "variants": [
+      {
+        "width": 480,
+        "height": 400,
+        "src": "assets/img/2026-04-17-waterloo-road-cleared-site-frontage-480.webp"
+      },
+      {
+        "width": 640,
+        "height": 533,
+        "src": "assets/img/2026-04-17-waterloo-road-cleared-site-frontage-640.webp"
+      },
+      {
+        "width": 800,
+        "height": 667,
+        "src": "assets/img/2026-04-17-waterloo-road-cleared-site-frontage-800.webp"
+      },
+      {
+        "width": 1200,
+        "height": 1000,
+        "src": "assets/img/2026-04-17-waterloo-road-cleared-site-frontage-1200.webp"
+      },
+      {
+        "width": 1600,
+        "height": 1334,
+        "src": "assets/img/2026-04-17-waterloo-road-cleared-site-frontage-1600.webp"
+      }
+    ],
+    "fallback": "assets/img/2026-04-17-waterloo-road-cleared-site-frontage-1200.webp"
   }
 }
