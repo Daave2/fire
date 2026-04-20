@@ -454,6 +454,14 @@ h2::before {
     margin-bottom: 14px;
 }
 
+h3 {
+    color: var(--primary);
+    font-size: 1.12em;
+    line-height: 1.35;
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+
 .container > h2,
 .container > h3,
 .container > p,
