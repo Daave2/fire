@@ -50,26 +50,35 @@
         </div>
     </nav>
 
-    <main id="main" class="container">
-        <header>
-            <h1>Out of the Ashes</h1>
-            <div class="subtitle">Waterloo Road Fire — Blackpool, February 2026</div>
-        </header>
-
-        <figure class="full-width-figure animate-in">
+    <main id="main">
+        <section class="home-hero animate-in" aria-labelledby="home-title">
             <img src="assets/img/2026-02-06-friday-fire-engines-waterloo-road-1200.webp"
             srcset="assets/img/2026-02-06-friday-fire-engines-waterloo-road-480.webp 480w, assets/img/2026-02-06-friday-fire-engines-waterloo-road-640.webp 640w, assets/img/2026-02-06-friday-fire-engines-waterloo-road-800.webp 800w, assets/img/2026-02-06-friday-fire-engines-waterloo-road-1200.webp 1200w, assets/img/2026-02-06-friday-fire-engines-waterloo-road-1600.webp 1600w"
-            sizes="(max-width: 768px) calc(100vw - 32px), 856px"
+            sizes="100vw"
             width="1648"
             height="1220"
+            class="home-hero-image"
             alt="Fire engines and police cordons at the Waterloo Road fire"
             loading="eager"
             fetchpriority="high"
             decoding="async"
             data-fullsrc="2026-02-06-friday-fire-engines-waterloo-road.jpg">
-            <figcaption><strong>February 6, 2026.</strong> Lancashire Fire and Rescue Service aerial ladder platforms
-                tackling the blaze at the Smart Mart commercial building on Waterloo Road, Blackpool.</figcaption>
-        </figure>
+            <div class="home-hero-copy">
+                <p class="home-kicker">Waterloo Road Fire · Blackpool · February 2026</p>
+                <h1 id="home-title">Out of the Ashes</h1>
+                <p>A resident-led record of the fire, displacement, community response and long recovery around Gordon
+                    Street.</p>
+                <div class="home-actions" role="group" aria-label="Featured sections">
+                    <a href="#latest-status">Latest status</a>
+                    <a href="evidence.html">Evidence notes</a>
+                </div>
+                <p class="home-hero-caption"><strong>February 6, 2026.</strong> Lancashire Fire and Rescue Service
+                    aerial ladder platforms tackling the blaze at the Smart Mart commercial building on Waterloo Road.
+                </p>
+            </div>
+        </section>
+
+        <div class="container home-content">
 
         <p>On the night of February 6, 2026, a major fire broke out at a commercial building on Waterloo Road in
             Blackpool's South Shore. Fifteen fire engines, aerial ladder platforms, and specialist units responded.
@@ -238,6 +247,7 @@
                 target="_blank" rel="noopener noreferrer">Chris Webb MP</a>
             <br>Updated to reflect the ongoing recovery after the fire · <a href="evidence.html">Evidence notes</a>
         </p>
+        </div>
     </main>
 
     <div class="container footer-container">
